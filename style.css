@@ -1,0 +1,141 @@
+body{
+    background: hsl(233, 47%, 7%);
+    color: white;
+   
+}
+.main-div{
+    position: relative; width: 100%; height: 800px;
+}
+.Body-size{
+    max-width: 100%;
+    height: 450px; border: none; background: hsl(244, 38%, 16%);
+}
+.Inner-body{
+    width: 1099px; height: 100%;
+}
+.sub-body-content{
+    padding-left: 60px;
+}
+.card-heading1{
+    font-size: 40px;
+}
+.bgimage{
+    width: 500px;
+    height: 100%;
+    background: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.sub-body{
+    width: 588px;height: 100%; text-align: left; 
+}
+.overlay{
+    background: rgba(128,0,128, 0.5);
+    
+    width: 500px;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+}
+
+.carD{
+    position: absolute;
+    left: 130px;
+    top: 22%;
+}
+.attribution{
+    position: absolute;
+    top: 90%;
+    left: 500px;
+}
+.headingSpan{
+    color: #A239EA;
+}
+.footer-head-1{
+    color: white;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    margin-right: 60px;
+}
+.footer-head-2{
+    color: hsla(0, 0%, 100%, 0.4);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+.main-para{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media (max-width: 375px) {
+    .main-div{
+        width: 100%;
+        height: 1200px;
+        position: relative;
+        
+    }
+    .carD{
+        position: absolute;
+        left: 0;
+        top: 20%;
+    }
+    .Body-size{
+        position: relative;
+        width: 300px;
+        height: 700px;
+        margin-left: 7%;
+        top: 5%;
+    }
+    .Inner-body{
+        position: relative;
+        width: 300px;
+        height: 700px;
+    }
+    .bgimage{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 250px;
+        width: 300px;
+        
+    }
+    .sub-body{
+        position: absolute;
+        top: 30%;
+
+    }
+    .sub-body-content{
+        padding-left: 0;
+        text-align: center;
+       
+    }
+    .card-heading1{
+        font-size: 26px;
+    }
+    .main-para{
+        font-size: 14px;
+    }
+    .footer{
+        position: absolute;
+        top: 38%;
+        left: 0;
+    }
+    .footer-head-1{
+        margin-left: 70px;
+        margin-right: 70px;
+        text-align: center;
+    }
+    .Inner-body{
+        margin-left: 0;
+    }
+    .attribution{
+        position: relative;
+        left: 0;
+    }
+}
